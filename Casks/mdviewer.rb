@@ -1,9 +1,9 @@
 cask "mdviewer" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.1.0"
-  sha256 arm:   "e06eca1900a8be3f663861fb5b0fef502c8b90795fc37c5a102e2254bd0fed23",
-         intel: "108c4917e9142ada12e80be2c6a13ebb9b3313cb477453fbe0dd1d7ca917162e"
+  version "1.1.1"
+  sha256 arm:   "c99c4e0db54d0b7eb2f4f4bbce14a6ec12c9bd4032affd6e19eb9187ef28b2d3",
+         intel: "375a069278f7a9edbb2cf62577fb645abb762a8b26db57e51c183f665fcedcdc"
 
   url "https://github.com/lambda-house/mdviewer-mj/releases/download/v#{version}/MDViewer_#{version}_#{arch}.dmg"
   name "MDViewer"
